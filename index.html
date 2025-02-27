@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Foms</title>
+    <link rel="shortcut icon" href="image for this assingment/logo.svg" type="image/x-icon" width="1500px" height="1500px">
+</head>
+<body bgcolor="#6495ED">
+    <table width="100%">
+        <tr width="100%">
+            <td width="15%"><img src="image for this assingment/logo.svg" alt="" width="150px" height="200px"></td>
+            <td width="70%"><center><h1>Topic 01 (HTML Forms)</h1></center></td>
+            <td width="15%"><img src="image for this assingment/logo.svg" alt="" width="150px" height="150px"></td>
+        </tr>
+    </table>
+    <hr>
+    <font color="#003366">
+        <table width="100%">
+            <tr width="100%">
+                <td width="70%">
+                    <h2>HTML Forms</h2>
+                    <p>HTML Forms are required when you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name, email address, credit card, etc.</p>
+                    <p>A form will take input from the site visitor and then will post it to a back-end application such as CGI, ASP Script or PHP script etc. The back-end application will perform required processing on the passed data based on the defined logic inside the application.</p>
+                    <p>There are various form elements available like text fields, textarea fields, drop-down menus, radio buttons, checkboxes, etc.</p>
+                    <p>The HTML <b>&lt;form&gt;</b> tag is used to create an HTML form and it has following syntax:</p>
+                    <pre>
+                        &lt;form action="server_url" method="get/post"&gt;
+                            form elements like input, textarea etc.
+                        &lt;/form&gt;
+                    </pre>
+                    <p>The <b>action</b> attribute defines the action to be performed when the form is submitted.</p>
+                    <p>Normally, the form data is sent to a web page on the server when the user clicks on the submit button. In the example above, the form data is sent to a page on the server called "/submit-form.php". This page contains a server-side script that handles the form data.</p>
+                    <p>The <b>method</b> attribute specifies the HTTP method (GET or POST) to be used when submitting the form data.</p>
+                    <p>The <b>GET</b> method sends the form data in the URL, while the <b>POST</b> method sends it in the HTTP request body.</p>
+                    <p>Here is an example of a simple form:</p>
+                    <pre>
+                        &lt;form action="/submit-form.php" method="post"&gt;
+                            &lt;label for="name"&gt;Name:&lt;/label&gt;
+                            &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;&lt;br&gt;
+                            &lt;label for="email"&gt;Email:&lt;/label&gt;
+                            &lt;input type="text" id="email" name="email"&gt;&lt;br&gt;&            
+                </td>
+                <td width="30%">
+                    <img src="image for this assingment/6725010.jpg" alt="" width="80%" height="80%">
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <center><h2>Examples</h2></center>
+        <table width="100%">
+            <tr width="100%">
+                <td width="25%"><center><button><a href="pages/form1.html" target="_blank">Example 01</a></button></center></td>
+                <td width="25%"><center><button><a href="pages/form2.html" target="_blank">Example 02</a></button></center></td>
+                <td width="25%"><center><button><a href="pages/form3.html" target="_blank">Example 03</a></button></center></td>
+                <td width="25%"><center><button><a href="pages/form4.html" target="_blank">Example 04</a></button></center></td>
+            </tr>
+        </table>
+        <hr>
+    </font>
+</body>
+</html>
